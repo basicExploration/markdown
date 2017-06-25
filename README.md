@@ -1,4 +1,4 @@
-# markdown How
+# markdown
 > 这里就是很简单的入门不是很详细，
 
 * h使用#即可，#的数目代表了h的级别
@@ -58,9 +58,9 @@
  当然#方式的url也是支持的例如
  
  ---
- [markdownHow](#markdown-How)
+ [markdown](#markdown)
  ~~~
- [markdownHow](#markdown-how)
+ [markdown](#markdown)
  ~~~
 
 
