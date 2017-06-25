@@ -1,7 +1,7 @@
 # markdown
 > 这里就是很简单的入门不是很详细，
 
-* h使用#即可，#的数目代表了h的级别
+* h使用#即可，#的数目代表了h的级别 
 
  \# h1  
  
@@ -28,7 +28,7 @@
  
  ###### h6
 
-
+# text1 how
 
 * 加粗使用 \*\*加粗内容**
 
@@ -48,7 +48,7 @@
 ***
 
 
-
+# text2
 * 引用直接(https://www.google.com)
 
 
@@ -120,3 +120,7 @@ function age(){
  2. sublime text
 
 * markdown有更多详细使用方法请参考[详细内容](http://daringfireball.net/projects/markdown/syntax)
+
+测试环节
+1. [text1](#text1-how)
+2. [text2](#text2)
