@@ -1,31 +1,31 @@
 # markdown
 > 这里就是很简单的入门不是很详细，
 
-* h使用#即可，#的数目代表了h的级别 
+* h使用#即可，#的数目代表了h的级别
 
  \# h1  
- 
+
  \## h2
- 
+
  \### h3
- 
+
  \#### h4
- 
+
  \##### h5
- 
+
  \###### h6
- 
- 
- # h1 
- 
+
+
+ # h1
+
  ## h2
- 
+
  ### h3
- 
+
  #### h4
- 
+
  ##### h5
- 
+
  ###### h6
 
 # text1 how
@@ -56,7 +56,7 @@
 
  [google](https://www.google.com)
  当然#方式的url也是支持的例如
- 
+
  ---
  [markdown](#markdown)
  ~~~
@@ -80,7 +80,7 @@
   |ddddd|dddddddd|
 
   效果是这样的
-  
+
 
   | Header One     | Header Two     |
   | :--------|:-----------|
@@ -124,3 +124,23 @@ function age(){
 测试环节
 1. [text1](#text1-how)
 2. [text2](#text2)
+
+---
+
+- chapter
+  - chapter1-1
+  - chapter2-2
+- chapter2
+  - chapter2-1
+  - chapter2-2
+
+~~~
+- chapter
+  - chapter1-1
+  - chapter2-2
+- chapter2
+  - chapter2-1
+  - chapter2-2
+
+~~~
+使用如此方法，就可以进行 实心和空心的交替使用。注意第二层和第一层的分割点是两个空格的（其实一个缩进就行，不过我们还是遵循标准，使用两个缩进为好）
