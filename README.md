@@ -1,4 +1,4 @@
-# markdown常用方法入门
+# markdown How
 > 这里就是很简单的入门不是很详细，
 
 * h使用#即可，#的数目代表了h的级别
@@ -55,6 +55,13 @@
 * 文字引用使用\[google](https://www.google.com)
 
  [google](https://www.google.com)
+ 当然#方式的url也是支持的例如
+ 
+ ---
+ [markdownHow](#markdown-How)
+ ~~~
+ [markdownHow](#markdown-how)
+ ~~~
 
 
 * 图片引用使用 \! \[\] \( \)
