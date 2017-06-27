@@ -201,3 +201,17 @@ echo this is bash codes
 
 注意 进行块注释的时候 使用一个\`\`就好
 例如 ： `这是一大堆注释` \`这是一大堆注释\`就是这样，要记得哦 不同数字的\` 体现的也是不同的。
+
+---
+增加一个东西
+mardkown中可以利用变量减少工作
+例如
+```js
+[dd][url]
+[url]:http://www.coastroad.net
+```
+这样 变量不会显示。
+[url][url]
+
+[url]:http://www.coastroad.net
+这其实是常量的用法，还是挺舒服的。
