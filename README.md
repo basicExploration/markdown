@@ -1,4 +1,4 @@
-# markdown 
+# markdown
 * h使用#即可，#的数目代表了h的级别
 
  \# h1  
@@ -165,10 +165,35 @@ function age(){
 ---
 加入我们使用同一个根目录下的照片其实也是挺好的方式
 
-[![picture](picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
+[![picture](/image/picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
 
 ---
 在markdown中如果在同一个根目录下，即便不用绝对路径或者是相对路径，只要用户名正确并且不重，那么就OK了,即使有很多的文件夹也无所谓。只要名字正确就行。
 ~~~
-[![picture](picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
+[![picture](/image/picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
 ~~~
+---
+下面是对code的更新
+在使用code的时候可以标注是哪种，这样显示的可以不同
+例如
+``` js
+cont nice = () => {
+console.log(`this is the js codes`)
+}
+
+```
+``` javascript
+``` js
+cont nice = () => {
+console.log(`this is the js codes`)
+}
+```
+~~~  bash
+echo this is bash codes
+~~~
+``` bash
+~~~  bash
+echo this is bash codes
+~~~
+```
+> 当然 ``` 和～～～ 的作用是一样的
