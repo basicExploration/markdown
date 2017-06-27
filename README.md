@@ -142,3 +142,33 @@ function age(){
 
 ~~~
 使用如此方法，就可以进行 实心和空心的交替使用。注意第二层和第一层的分割点是两个空格的（其实一个缩进就行，不过我们还是遵循标准，使用两个缩进为好）
+
+---
+讲真，在markdown中其实有很多的组合用法的
+
+1. 最简单的一个就是斜粗体的用法 例如 ***这是斜粗体*** *这是斜体* **这是粗体**
+2. 照片和url怎么组合呢？因为我们不仅要显示照片同时还要将其赋予一些功能，那么将照片放在URL的内部是一件比较好的事情。
+
+这只是是照片：
+![picture](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)
+~~~
+![picture](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)
+~~~
+这并不会有什么特殊的作用但是如果但是如果我们在外部潜逃一个url就OK了
+
+[![picture](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)
+
+~~~
+[![picture](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)
+~~~
+能看出来这也是我们应该掌握的一个重点。
+---
+加入我们使用同一个根目录下的照片其实也是挺好的方式
+
+[![picture](picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
+
+---
+在markdown中如果在同一个根目录下，即便不用绝对路径或者是相对路径，只要用户名正确并且不重，那么就OK了,即使有很多的文件夹也无所谓。只要名字正确就行。
+~~~
+[![picture](picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
+~~~
