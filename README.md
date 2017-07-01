@@ -156,10 +156,11 @@ function age(){
 ~~~
 这并不会有什么特殊的作用但是如果但是如果我们在外部潜逃一个url就OK了
 
-[![picture](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)
+[![picture][url1]][url1]
 
 ~~~
-[![picture](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)
+![picture][url1]
+这种形式的话，适合重复性的运用，也就是常量，至于变量的话还是建议直接使用圆括号即可
 ~~~
 能看出来这也是我们应该掌握的一个重点。
 ---
@@ -212,6 +213,8 @@ mardkown中可以利用变量减少工作
 ```
 这样 变量不会显示。
 [url][url]
+[url1]:http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg
 
 [url]:http://www.coastroad.net
 这其实是常量的用法，还是挺舒服的。
+也就是用 [] 代替 ()
