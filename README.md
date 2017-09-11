@@ -213,7 +213,6 @@ mardkown中可以利用变量减少工作
 ```
 这样 变量不会显示。
 [url][url]
-[url1]:http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg)](http://car2.autoimg.cn/cardfs/product/g10/M01/A1/76/800x0_1_q87_autohomecar__wKgH0VkaUniADswMAAJUx9UYIzY248.jpg
 
 [url]:http://www.coastroad.net
 这其实是常量的用法，还是挺舒服的。
