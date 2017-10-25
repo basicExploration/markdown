@@ -72,7 +72,7 @@
 
    | file One     | Header Two     |
 
-  \|:---|:-----|
+  \|-|-|
 
   | Item One       | Item Two       |
   |ddddd|dddddddd|
@@ -81,7 +81,7 @@
 
 
   | Header One     | Header Two     |
-  | :--------|:-----------|
+  |-|-|
   | Item One       | Item Two       |
   |dddd|ddddfdfdfdfdfdfdfdfdf|
 
