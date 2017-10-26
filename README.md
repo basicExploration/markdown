@@ -54,6 +54,15 @@
 
  [google](https://www.google.com)
  当然#方式的url也是支持的例如
+ 
+ > 但是要记得索引的id地址要小写，不能有大写字母，不然无法成功
+ 
+ ```bash
+ [google](#text2)
+ 可以看到我们使用的是小写，如果我们首字母使用大写
+ [google](# Text2)
+ 即便是id地址的确是这么写的也是无法成功运行的。
+ ```
 
  ---
  [markdown](#markdown)
