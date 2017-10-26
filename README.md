@@ -26,7 +26,7 @@
 
  ###### h6
 
-# text1 how
+#### text1 how
 
 * 加粗使用 \*\*加粗内容**
 
@@ -46,7 +46,7 @@
 ***
 
 
-# text2
+#### text2
 * 引用直接(https://www.google.com)
 
 
