@@ -1,5 +1,5 @@
 # markdown
-* h使用#即可，#的数目代表了h的级别
+h使用#即可，#的数目代表了h的级别
 
  \# h1  
 
@@ -13,7 +13,7 @@
 
  \###### h6
 
-
+---
  # h1
 
  ## h2
@@ -28,56 +28,51 @@
 
 #### text1 how
 
-* 加粗使用 \*\*加粗内容**
+加粗使用 \*\*加粗内容**
 
  **加粗**
 
 
-* 斜线使用 \*斜体\*
+斜线使用 \*斜体\*
 
  *xieti*
 
-* 斜体加粗 \*\*\* dd\***
+斜体加粗 \*\*\* dd\***
 
-
-
-* 使用\--或者\***来进行划分界限
+使用\--进行划分界限
 
 ***
 
 
 #### text2
-* 引用直接(https://www.google.com)
+引用1
 
+(https://www.google.com)
 
-* 文字引用使用\[google](https://www.google.com)
+https://www.google.com
+
+引用2
+
+\[google](https://www.google.com)
 
  [google](https://www.google.com)
- 当然#方式的url也是支持的例如
- 
- > 但是要记得索引的id地址要小写，不能有大写字母，不然无法成功
- 
+
+ 当然#方式的url也是支持，但是要记得索引的id地址要小写，不能有大写字母，不然无法成功。如图解释
+
+ ⬇️
  ```bash
  [google](#text2)
  可以看到我们使用的是小写，如果我们首字母使用大写
  [google](# Text2)
- 即便是id地址的确是这么写的也是无法成功运行的。
+ 即便是id地址的确是这么写的也是无法成功运行
+ [markdown](#markdown)
  ```
 
- ---
- [markdown](#markdown)
- ~~~
- [markdown](#markdown)
- ~~~
+
+ 图片引用使用 \! \[\] \( \)
 
 
-* 图片引用使用 \! \[\] \( \)
-
-
-* 表格使用
-
-
-
+表格使用
 
    | file One     | Header Two     |
 
@@ -94,45 +89,48 @@
   | Item One       | Item Two       |
   |dddd|ddddfdfdfdfdfdfdfdfdf|
 
-* 有序数字使用1. 2. 3. 即可
+有序数字使用1. 2. 3. 即可
 
-* 无序使用\*  即可
+无序使用\- 或者 \*  即可
 
-* 换行 直接使用enter换行即可
+换行 直接使用enter换行即可
 
-* markdown兼容html 使用html标签也是可以的< a href='https://www.baidu.com'\>baidu\</ a>
-* \> 引用
+> markdown兼容html 使用html标签也是可以的< a href='https://www.baidu.com'\>baidu\</ a>
+
+\> 引用
 > >>> 这是引用
-* 使用\`进行块儿注释\`
+使用\`进行块儿注释\`
 
   `这是我写的例子，其实就是这样的感觉`。
 
 
-* 代码块 ～～～ function～～～（注意是英文～）
+代码块
 
-~~~
+ \``` languageName 例如js go py
+
+func
+
+pass
+
+\```
+
+```js
 function age(){
 
   returen 'big one';
+```
 
-}
-~~~
-
-* markdown 还支持类似jade的缩进方式，可以规定父类子类
+markdown 还支持类似jade的缩进方式，可以规定父类子类
 
 
-* 推荐使用几款markdown编辑器
+- 推荐使用几款markdown编辑器
 
  1. atom
  2. sublime text
 
-* markdown有更多详细使用方法请参考[详细内容](http://daringfireball.net/projects/markdown/syntax)
+- markdown有更多详细使用方法请参考[详细内容](http://daringfireball.net/projects/markdown/syntax)
 
-测试环节
-1. [text1](#text1-how)
-2. [text2](#text2)
-
----
+**对于缩进的演示**
 
 - chapter
   - chapter1-1
@@ -141,7 +139,7 @@ function age(){
   - chapter2-1
   - chapter2-2
 
-~~~
+```bash
 - chapter
   - chapter1-1
   - chapter2-2
@@ -149,10 +147,7 @@ function age(){
   - chapter2-1
   - chapter2-2
 
-~~~
-使用如此方法，就可以进行 实心和空心的交替使用。注意第二层和第一层的分割点是两个空格的（其实一个缩进就行，不过我们还是遵循标准，使用两个缩进为好）
-
----
+```
 讲真，在markdown中其实有很多的组合用法的
 
 1. 最简单的一个就是斜粗体的用法 例如 ***这是斜粗体*** *这是斜体* **这是粗体**
@@ -177,47 +172,22 @@ function age(){
 
 [![picture](/image/picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
 
----
-在markdown中如果在同一个根目录下，即便不用绝对路径或者是相对路径，只要用户名正确并且不重，那么就OK了,即使有很多的文件夹也无所谓。只要名字正确就行。
-~~~
+```
+
 [![picture](/image/picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
-~~~
----
-下面是对code的更新
-在使用code的时候可以标注是哪种，这样显示的可以不同
-例如
-``` js
-cont nice = () => {
-console.log(`this is the js codes`)
-}
 
 ```
-``` javascript
-``` js
-cont nice = () => {
-console.log(`this is the js codes`)
-}
+
 ```
-~~~  bash
-echo this is bash codes
-~~~
-``` bash
-~~~  bash
-echo this is bash codes
-~~~
+[![picture](/image/picture1.jpg)](http://car.auto.ifeng.com/brand/20025/)
 ```
-> 当然 ``` 和～～～ 的作用是一样的
 
-
-注意 进行块注释的时候 使用一个\`\`就好
-例如 ： `这是一大堆注释` \`这是一大堆注释\`就是这样，要记得哦 不同数字的\` 体现的也是不同的。
-
----
 增加一个东西
 mardkown中可以利用变量减少工作
 例如
 ```js
 [dd][url]
+
 [url]:http://www.coastroad.net
 ```
 这样 变量不会显示。
